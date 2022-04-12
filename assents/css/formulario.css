@@ -1,0 +1,43 @@
+.sessao-contato {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+    margin-bottom: 100px;
+}
+
+.sessao-contato-conteudo {
+    width: 550px;
+}
+
+.contato-conteudo-titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contato-conteudo-icones {
+    width: 100%;
+
+    display: flex;
+    gap: 30px;
+}
+
+.conteudo-icones-item {
+    background-color: #000000;
+    width: 50px;
+    height: 50px;
+
+    margin-top: 40px;
+}
+
+.sessao-contato-formulario {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sessao-contato-formulario input {
+    width: 235px;
+    height: 25px;
+}

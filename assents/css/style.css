@@ -1,0 +1,10 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #6E6E6E;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,31 @@
+.sessao-quemSou {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+    border-bottom: 1px solid #fafafa;
+}
+
+.sessao-quemSou-imagem {
+    width: 200px;
+}
+
+.quemSou-imagem-item {
+    width: 100%;
+}
+
+.sessao-quemSou-conteudo {
+    width: 900px;
+}
+
+.quemSou-titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.quemSou-paragrafo {
+    font-size: 18px;
+
+    text-align: justify;
+}

@@ -1,0 +1,38 @@
+.sessao-conhecimento {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 100px;
+}
+
+.sessao-conhecimento-conteudo {
+    width: 550px;
+}
+
+.conhecimento-conteudo-titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.conhecimento-conteudo-paragrafo {
+    font-size: 20px;
+
+    text-align: justify;
+}
+
+.sessao-conhecimento-card {
+    width: 550px;
+}
+
+.conhecimento-card {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 33px;
+}
+
+.conhecimento-card-item {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}

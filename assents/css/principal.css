@@ -1,0 +1,174 @@
+.sessao-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 100px;
+
+    margin-top: 50px;
+}
+
+.sessao-principal-conteudo {
+    width: 600px;
+}
+
+.principal-conteudo-paragrafo {
+    font-size: 30px;
+}
+
+.principal-conteudo-titulo {
+    font-size: 90px;
+}
+
+.principal-conteudo-slogam {
+    font-size: 40px;
+
+    margin-bottom: 50px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Botão Entrar em contato */
+.bnt-contato {
+    position: relative;
+    height: 50px;
+    padding: 0 30px;
+    border: 2px solid #FFFF00;
+    background: #000000;
+    user-select: none;
+    white-space: nowrap;
+    transition: all .05s linear;
+    font-family: inherit;
+    width: 300px;
+    margin: 0 auto 20px;
+   }
+   
+   .bnt-contato:before, button:after {
+    content: "";
+    position: absolute;
+    background: #000000;
+    transition: all .2s linear;
+   }
+   
+   .bnt-contato:before {
+    width: calc(100% + 6px);
+    height: calc(100% - 16px);
+    top: 8px;
+    left: -3px;
+   }
+   
+   .bnt-contato:after {
+    width: calc(100% - 16px);
+    height: calc(100% + 6px);
+    top: -3px;
+    left: 8px;
+   }
+   
+   .bnt-contato:hover {
+    cursor: crosshair;
+   }
+   
+   .bnt-contato:active {
+    transform: scale(0.95);
+   }
+   
+   .bnt-contato:hover:before {
+    height: calc(100% - 32px);
+    top: 16px;
+   }
+   
+   .bnt-contato:hover:after {
+    width: calc(100% - 32px);
+    left: 16px;
+   }
+   
+   .bnt-contato span {
+    font-size: 15px;
+    z-index: 3;
+    position: relative;
+    font-weight: 600;
+    color: #F2F2F2;
+   }
+
+
+/* botão dowloads cv */
+.download-button {
+    position: relative;
+    border-width: 0;
+    color: #F2F2F2;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    z-index: 1;
+    background: #FFFF00;
+    width: 170px;
+    margin: 0 auto;
+   }
+   
+   .download-button .docs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: #000000;
+    border: solid 1px #FFFF00;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+   }
+   
+   .download-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   
+   .download {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+    border-radius: 4px;
+    transform: translateY(0%);
+    background-color: #000000;
+    border: solid 1px #FFFF00;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+   }
+   
+   .download-button:hover .download {
+    transform: translateY(100%)
+   }
+   
+   .download svg polyline,.download svg line {
+    animation: docs 1s infinite;
+   }
+   
+   @keyframes docs {
+    0% {
+     transform: translateY(0%);
+    }
+   
+    50% {
+     transform: translateY(-15%);
+    }
+   
+    100% {
+     transform: translateY(0%);
+    }
+   }
+
+.sessao-principal-imagem {
+    width: 500px;
+    
+}
+
+.principal-imagem-item {
+    width: 100%;
+}
