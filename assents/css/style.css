@@ -8,3 +8,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+span {
+    color: #F2F2F2;
+}

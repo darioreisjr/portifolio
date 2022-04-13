@@ -18,6 +18,24 @@
 
 .principal-conteudo-titulo {
     font-size: 90px;
+
+    width: 400px;
+    animation: digitando 3s steps(25),blink .6s infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+}
+
+@keyframes digitando {
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    40%{
+        border-color: #FFFF00;
+    }
 }
 
 .principal-conteudo-slogam {
@@ -171,4 +189,18 @@
 
 .principal-imagem-item {
     width: 100%;
+
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
