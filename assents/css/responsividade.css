@@ -1,11 +1,12 @@
 @media screen and (max-width: 480px ) {
-    body {
+    body, main, footer  {
         max-width: 480px;
     }
     
     .cabecalho {
         flex-direction: column;
         gap: 25px;
+        width: 100%;
     }
 
     .cabecalho-menu {
@@ -15,11 +16,15 @@
 
     .sessao-principal {
         flex-direction: column-reverse;
-        height: auto;  
+        background: none;
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter:none;
+        border-radius: none;
     }
       
     .sessao-principal-conteudo {
-        width: 480px;
+        width: 100%;
         text-align: center;
     }
     
@@ -42,5 +47,18 @@
     
     .quemSou-titulo {
         text-align: center;
+    }
+
+
+    .sessao-projeto-container {
+        flex-direction: column;
+    }
+
+    .sessao-conhecimento {
+        flex-direction: column;
+    }
+
+    .sessao-conhecimento-card {
+        display: none;
     }
 }
