@@ -23,11 +23,11 @@
 }
 
 .principal-conteudo-paragrafo {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .principal-conteudo-titulo {
-    font-size: 90px;
+    font-size: 5.6rem;
 
     width: 400px;
     animation: digitando 3s steps(25),blink .6s infinite alternate;

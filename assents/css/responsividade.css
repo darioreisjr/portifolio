@@ -6,7 +6,7 @@
     .cabecalho {
         flex-direction: column;
         gap: 25px;
-        width: 100%;
+        width: 480px;
     }
 
     .cabecalho-menu {
@@ -24,17 +24,30 @@
     }
       
     .sessao-principal-conteudo {
-        width: 100%;
+        width: 480px;
         text-align: center;
     }
     
     .principal-conteudo-titulo {
         margin: 0 auto;
+        width: 380px;
     }   
+
+    .bnt-contato {
+        width: 80%;
+    }
     
     .download-button {
         margin-bottom: 35px;
     }   
+
+    .sessao-principal-imagem {
+        width: 480px;
+    }
+
+    .principal-imagem-item {
+        width: 100%;
+    }
 
     .sessao-quemSou {
         flex-direction: column;
