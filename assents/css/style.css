@@ -1,5 +1,3 @@
-
-
 body {
     max-width: 1200px;
     margin: 0 auto;
@@ -14,4 +12,9 @@ main {
 
 span {
     color: #F2F2F2;
+}
+
+.destaque {
+    color: #FFFF00;
+    font-weight: bold;
 }

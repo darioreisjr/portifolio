@@ -87,6 +87,10 @@
     text-transform: uppercase;
 
     color: #F2F2F2;
+}
 
-
+.menu-item a:hover {
+    color: #FFFF00;
+    
+    font-weight: bold;
 }
