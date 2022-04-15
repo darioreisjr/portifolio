@@ -1,0 +1,46 @@
+@media screen and (max-width: 480px ) {
+    body {
+        max-width: 480px;
+    }
+    
+    .cabecalho {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .cabecalho-menu {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sessao-principal {
+        flex-direction: column-reverse;
+        height: auto;  
+    }
+      
+    .sessao-principal-conteudo {
+        width: 480px;
+        text-align: center;
+    }
+    
+    .principal-conteudo-titulo {
+        margin: 0 auto;
+    }   
+    
+    .download-button {
+        margin-bottom: 35px;
+    }   
+
+    .sessao-quemSou {
+        flex-direction: column;
+        margin: 25px;
+    } 
+    
+    .sessao-quemSou-imagem {
+        display: none;
+    }
+    
+    .quemSou-titulo {
+        text-align: center;
+    }
+}
